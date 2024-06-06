@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-
+runs:
+  using: 'node20'
+  main: 'main.js'
 import leveldb
 import sys
 import re
